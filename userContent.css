@@ -1,0 +1,9 @@
+@-moz-document url(about:settings) {
+  .pane-container {
+    width: 100%;
+  }
+
+  .sticky-inner-container {
+    max-width: unset;
+  }
+}
