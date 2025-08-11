@@ -1,6 +1,6 @@
-@-moz-document url(about:settings) {
+@-moz-document url-prefix(about:preferences), url-prefix(about:settings) {
   .pane-container {
-    width: 100%;
+    width: 100% !important;
   }
 
   .sticky-inner-container {
