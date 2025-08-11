@@ -1,0 +1,9 @@
+{
+  "name": "Full-width Settings",
+  "description": "Makes the settings page tabs have full-width.",
+  "homepage": "https://github.com/kittenvr/bigesettings",
+  "version": "1.0.0",
+  "style": {
+    "content": "https://raw.githubusercontent.com/kittenvr/bigesettings/main/userContent.css"
+  }
+}
