@@ -1,9 +1,23 @@
 @-moz-document url-prefix(about:preferences), url-prefix(about:settings) {
-  .pane-container {
-    width: 100% !important;
+  @media -moz-pref("bigesettings.sine-only") {
+    #preferences-stack:has(#categories[last-selected="category-sine-mods"]) {
+      .pane-container {
+        width: 100% !important;
+      }
+
+      .sticky-inner-container {
+        max-width: unset;
+      }
+    }
   }
 
-  .sticky-inner-container {
-    max-width: unset;
+  @media not -moz-pref("bigesettings.sine-only") {
+    .pane-container {
+      width: 100% !important;
+    }
+
+    .sticky-inner-container {
+      max-width: unset;
+    }
   }
 }
