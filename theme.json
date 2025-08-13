@@ -5,5 +5,6 @@
   "version": "1.0.0",
   "style": {
     "content": "https://raw.githubusercontent.com/kittenvr/bigesettings/main/userContent.css"
-  }
+  },
+  "preferences": "https://raw.githubusercontent.com/kittenvr/bigesettings/main/preferences.json"
 }
