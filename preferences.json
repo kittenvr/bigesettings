@@ -2,6 +2,6 @@
   {
     "type": "checkbox",
     "label": "Only apply to Sine Mods tab.",
-    "property": "bigesettings.sine-only",
+    "property": "bigesettings.sine-only"
   }
 ]
